@@ -1,5 +1,5 @@
 module.exports = {
-    BOT_TOKEN: process.env.BOT_TOKEN,
+    BOT_TOKEN: '8498488320:AAGAWXIsjBgv4jDc7mVLFNslPyG6JTzCW7I',
     
     NOVOVOLYNSK: {
         latitude: 50.7258,

@@ -1,6 +1,6 @@
 module.exports = {
     // Токен бота від @BotFather
-    BOT_TOKEN: '8498488320:AAGAWXIsjBgv4jDc7mVLFNslPyG6JTzCW7I',
+    BOT_TOKEN: 'BOT_TOKEN',
     
     // Координати Нововолинська
     NOVOVOLYNSK: {

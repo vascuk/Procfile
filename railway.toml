@@ -1,4 +1,0 @@
-rm railway.toml
-git add .
-git commit -m "Remove railway.toml"
-git push

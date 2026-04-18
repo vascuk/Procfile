@@ -1,6 +1,4 @@
-[build]
-command = "npm install"
-
-[deploy]
-command = "npm start"
-restart = "always"npm install --package-lock-only
+rm railway.toml
+git add .
+git commit -m "Remove railway.toml"
+git push

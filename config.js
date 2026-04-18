@@ -1,5 +1,5 @@
 module.exports = {
-    BOT_TOKEN: '8498488320:AAEM7a2TSs4VzdAuzAXTKMlfMq55igZ2b2A',
+    BOT_TOKEN: '7507768571:AAFMlmNOIyPGoeGZcn5iUay3mi3vTLIxeAA',
     
     NOVOVOLYNSK: {
         latitude: 50.7258,

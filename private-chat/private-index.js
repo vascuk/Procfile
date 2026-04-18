@@ -31,8 +31,12 @@ function handleConnection(update) {
 }
 
 async function handleBusinessMessage(msg) {
+    console.log('📨 ОТРИМАНО БІЗНЕС:', msg.text);
+    
     const chatId = msg.chat.id;
     const text = msg.text;
+    // ...
+
     const businessId = msg.business_connection_id;
     const firstName = msg.from.first_name || 'користувач';
     

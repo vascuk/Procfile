@@ -44,10 +44,9 @@ async function handleBusinessMessage(msg) {
         });
     }
     else if (privateHelp.isHelpCommand(text)) {
-        await bot.sendMessage(chatId, privateHelp.getHelpMessage(), {
-            business_connection_id: businessId,
-            parse_mode: 'Markdown'
-        });
+    await bot.sendMessage(chatId, privateHelp.getHelpMessage(), {
+        business_connection_id: businessId
+    });
     }
     else if (privateHelp.isGamesCommand(text)) {
         await bot.sendMessage(chatId, privateHelp.getGamesMessage(), {
